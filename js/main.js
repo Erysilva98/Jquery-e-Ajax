@@ -7,7 +7,7 @@ function consultaCep() {
         type: "GET",
         success: function(response){
             // Lista as informações em no console ao retirar as // abaixo
-            // console.log(response);
+            console.log(response);
             $("#logradouro").html(response.logradouro);
             $("#bairro").html(response.bairro);
             $("#localidade").html(response.localidade);
